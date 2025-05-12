@@ -1,0 +1,20 @@
+[project]
+name = "mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.7.1",
+    "nidaqmx",
+    "qcodes",
+    "Pyqt5",
+    "qcodes_contrib_drivers",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "scipy",
+    "zhinst",
+    "matplotlib",
+    "pywin32",
+    "multipyvu"
+]

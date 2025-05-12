@@ -1,0 +1,31 @@
+name: mcp-server
+channels:
+  - conda-forge
+  - anaconda
+  - pypi
+dependencies:
+  - python>=3.10
+  - mcp>=1.7.1
+  - qcodes
+  - conda-forge::pywin32==304
+  - pip>=23.1
+  - scipy
+  - numpy
+  - pandas
+  - ipykernel
+  - matplotlib
+  - sphinx
+  - sphinx-rtd-theme
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipython==8.15
+  - jupyter_client
+  - jupyter_core
+  - traitlets
+  - ipython_genutils
+  - pip:
+    - PyQt5
+    - zhinst
+    - qcodes_contrib_drivers
+    - nidaqmx
